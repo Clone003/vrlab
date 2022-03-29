@@ -1,0 +1,162 @@
+# Blender 3.1.0 MTL File: 'jqc9_lab2.blend'
+# www.blender.org
+
+newmtl Bed
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns  -o 15 15 15 Fabric036_4K_Roughness.jpg
+
+newmtl Carpet
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns  -o 3 3 3 Carpet012_4K_Roughness.jpg
+map_Bump  -o 3 3 3 -bm 1.000000 Carpet012_4K_NormalDX.jpg
+
+newmtl Floor
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  -o 50 50 50 Wood069_4K_Color.jpg
+map_Ns  -o 50 50 50 Wood069_4K_Roughness.jpg
+map_Bump  -o 50 50 50 -bm 1.000000 Wood069_4K_NormalDX.jpg
+
+newmtl Fridge
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  -o 4 4 4 Metal009_4K_Color.jpg
+map_Ns  -o 4 4 4 Metal009_4K_Roughness.jpg
+map_refl  -o 4 4 4 Metal009_4K_Metalness.jpg
+map_Bump  -o 4 4 4 -bm 1.000000 Metal009_4K_NormalDX.jpg
+
+newmtl Lamp.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  -o 50 50 50 Metal028_4K_Color.jpg
+map_Ns  -o 50 50 50 Metal028_4K_Roughness.jpg
+map_refl  -o 50 50 50 Metal028_4K_Metalness.jpg
+map_Bump  -o 50 50 50 -bm 1.000000 Metal028_4K_NormalDX.jpg
+
+newmtl LampShade
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Mirror
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl Plate
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  -o 10 10 10 Porcelain001_4K_Color.jpg
+map_Ns  -o 10 10 10 Porcelain001_4K_Roughness.jpg
+map_Bump  -o 10 10 10 -bm 1.000000 Porcelain001_4K_NormalDX.jpg
+
+newmtl Speaker
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  -o 2 2 2 Plastic006_4K_Color.jpg
+map_Ns  -o 2 2 2 Plastic006_4K_Roughness.jpg
+map_Bump  -o 2 2 2 -bm 1.000000 Plastic006_4K_NormalDX.jpg
+
+newmtl Table
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  -o 10 10 10 Wood008_4K_Color.jpg
+map_Ns  -o 10 10 10 Wood008_4K_Roughness.jpg
+map_Bump  -o 10 10 10 -bm 1.000000 Wood008_4K_NormalDX.jpg
+
+newmtl Table.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  -o 10 10 10 Wood008_4K_Color.jpg
+map_Ns  -o 10 10 10 Wood008_4K_Roughness.jpg
+map_Bump  -o 10 10 10 -bm 1.000000 Wood008_4K_NormalDX.jpg
+
+newmtl Walls
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns  -o 15 15 15 Bricks059_4K_Roughness.jpg
+
+newmtl Window_Trim
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  -o 5 5 5 Wood069_4K_Color.jpg
+map_Ns  -o 5 5 5 Wood069_4K_Roughness.jpg
+map_Bump  -o 5 5 5 -bm 1.000000 Wood069_4K_NormalDX.jpg
