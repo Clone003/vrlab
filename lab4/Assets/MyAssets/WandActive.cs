@@ -13,7 +13,7 @@ public class WandActive : MonoBehaviour
     }
     */
     void Update() {
-        if (Input.GetKeyDown(KeyCode.Mouse0)) {
+        if (Input.GetKeyDown(KeyCode.Mouse0) || Input.GetKeyDown(KeyCode.Mouse1)) {
             StartCoroutine(Active());
         }
     }
